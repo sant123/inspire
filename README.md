@@ -5,13 +5,27 @@ Based on the inspire Artisan command from
 
 ## Installation
 
-```shell
-deno install -fq https://deno.land/x/inspire/mod.ts
+```sh { background=true }
+deno install -fr https://deno.land/x/inspire/mod.ts
+```
+
+### Run it
+
+```sh { background=true }
+inspire
+```
+
+### Try it without installing
+
+```sh { background=true }
+deno run https://deno.land/x/inspire/mod.ts
 ```
 
 <img src="./images/inspire.png">
 
 ## Usage
+
+You can use the quotes in your library if needed:
 
 ```ts
 // example.ts
